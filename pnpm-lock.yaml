@@ -1,16 +1,12 @@
 lockfileVersion: '6.0'
 
-settings:
-  autoInstallPeers: true
-  excludeLinksFromLockfile: false
-
 dependencies:
   '@builder.io/qwik':
     specifier: 1.1.5
     version: 1.1.5(undici@5.22.0)
   '@builder.io/qwik-city':
-    specifier: 1.0.0
-    version: 1.0.0
+    specifier: 1.1.5
+    version: 1.1.5
   '@divriots/jampack':
     specifier: 0.9.4
     version: 0.9.4
@@ -113,8 +109,8 @@ packages:
       regenerator-runtime: 0.13.11
     dev: false
 
-  /@builder.io/qwik-city@1.0.0:
-    resolution: {integrity: sha512-nHlDsvYHRWpSmRgg3bb93shn0p1OeMLvBYyIINitGDPxRSK1RyddtJXFAE24MlEEwzetF82xSte3SiC55oPUaQ==}
+  /@builder.io/qwik-city@1.1.5:
+    resolution: {integrity: sha512-AzIlyyP8nmv3DRXVtiBUcjMtazIaLr0U3hHoieqrtK+XfdhTXdKjzFX9ceUj0zSwX4wrvX86BtwrYJDMeJ+AuA==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
     dependencies:
       '@mdx-js/mdx': 2.3.0
@@ -6490,3 +6486,7 @@ packages:
   /zwitch@2.0.4:
     resolution: {integrity: sha512-bXE4cR/kVZhKZX/RjPEflHaKVhUVl85noU3v6b8apfQEc1x4A+zBxjZ4lN8LqGd6WZ3dl98pY4o717VFmoPp+A==}
     dev: false
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
