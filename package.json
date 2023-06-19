@@ -32,7 +32,7 @@
     "@types/node": "latest",
     "@typescript-eslint/eslint-plugin": "5.59.11",
     "@typescript-eslint/parser": "5.59.11",
-    "@unpic/qwik": "0.0.19",
+    "@unpic/qwik": "0.0.20",
     "autoprefixer": "10.4.14",
     "eslint": "8.43.0",
     "eslint-plugin-qwik": "1.1.5",
