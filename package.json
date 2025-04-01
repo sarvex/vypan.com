@@ -53,7 +53,7 @@
     "tailwindcss": "3.4.17",
     "typescript": "5.8.2",
     "undici": "6.21.2",
-    "vercel": "34.4.0",
+    "vercel": "41.4.1",
     "vite": "5.4.16",
     "vite-tsconfig-paths": "5.1.4",
     "vitest": "3.1.1"
