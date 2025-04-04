@@ -71,8 +71,8 @@ devDependencies:
     specifier: 9.23.0
     version: 9.23.0
   eslint-plugin-qwik:
-    specifier: 1.12.1
-    version: 1.12.1(eslint@9.23.0)(typescript@5.8.2)
+    specifier: 1.13.0
+    version: 1.13.0(eslint@9.23.0)(typescript@5.8.2)
   postcss:
     specifier: 8.5.3
     version: 8.5.3
@@ -3278,16 +3278,14 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /eslint-plugin-qwik@1.12.1(eslint@9.23.0)(typescript@5.8.2):
-    resolution: {integrity: sha512-TcRmlddWP1Qk0TcwLcS6Hu7+DYnpiwR+DvsPNqpcqOpModjXgtQ2keBvjCJ0y2Zoe18QPE1FES3HWnrHMhnKig==}
+  /eslint-plugin-qwik@1.13.0(eslint@9.23.0)(typescript@5.8.2):
+    resolution: {integrity: sha512-7qF4Sq36KY0a8ktCzZac8Q2BBzjAqLb7Stcjwxh4hwO/AD2CcQIl3ZXGvRM57w9siYlmyegUfvxZBCcuvm/4gA==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
-    peerDependencies:
-      eslint: ^8.57.0
     dependencies:
       '@typescript-eslint/utils': 8.29.0(eslint@9.23.0)(typescript@5.8.2)
-      eslint: 9.23.0
       jsx-ast-utils: 3.3.5
     transitivePeerDependencies:
+      - eslint
       - supports-color
       - typescript
     dev: true
